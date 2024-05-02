@@ -50,8 +50,8 @@ footer {
     color: #03109e;
 }
 
-.footer-section-links a .fa-youtube:hover {
-    color: #b80101;
+.footer-section-links a .fa-github:hover {
+    color: #000000;
 }
 
 .footer-section-links a .fa-instagram:hover {
