@@ -91,3 +91,20 @@ function validateForm1() {
 
     return true;
 }
+
+function signUp() {
+    if (validateForm1()) {
+        document.getElementById("signupButton").addEventListener("click", function () {
+            window.location.assign("LogIn.html");
+        });
+
+    }
+}
+function logIn() {
+    if (validateForm()) {
+        document.getElementById("loginButton").addEventListener("click", function () {
+            window.location.assign("mainPage.html");
+        });
+
+    }
+}
