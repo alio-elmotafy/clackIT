@@ -17,8 +17,6 @@ function togglePasswordVisibility() {
         icon.classList.add("fa-eye");
     }
 }
-
-
 function validateForm() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("pass").value;
@@ -91,7 +89,6 @@ function validateForm1() {
 
     return true;
 }
-
 function signUp() {
     if (validateForm1()) {
         document.getElementById("signupButton").addEventListener("click", function () {
