@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/c1366fb4-3292-4428-9639-b73f25539794/2fb0c52e-8510-456d-8e09-cb83b3f5b1df/EG-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background: url(../image/header-cover.jpg);
     text-align: center;
     width: 100%;
     min-height: fit-content;
@@ -72,6 +72,12 @@ header .overlay {
     margin-bottom: 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+
+.overlay a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 10px #ffffff, 1px 1px 10px #ccc;
 }
 
 
@@ -284,6 +290,23 @@ a {
 
 .category:hover {
     text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.ar-mov p {
+    width: fit-content;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 210;
+    font-style: normal;
+    letter-spacing: 0.25rem;
+    transition: 0.3s ease-in-out;
+    cursor: context-menu;
+
+}
+
+.ar-mov p:hover {
+    text-shadow: rgb(255, 0, 0) 1px 0 12px;
 }
 
 .buttons {
